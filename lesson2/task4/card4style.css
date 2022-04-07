@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: 650px;
+    background: lightgreen;
+
+}
+.green-box{
+    width: 400px;
+    height: 200px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 50px;
+}
+.widgets_box{
+    height: 200px;
+    background: gray;
+    display:flex;
+    column-gap: 10px;
+    padding: 10px 0;
+    box-sizing: content-box;
+}
+.widget{
+    width: 33%;
+    height: 100%;
+    background:red;
+}
+.heading{
+    font-size: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.contacts{
+    height: 230px;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}

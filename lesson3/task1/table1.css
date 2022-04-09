@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    height: 450px;
+    background: #e79fe7;
+}
+.box1{
+    width: 100%;
+    height: 100px;
+    background: blueviolet;
+    position: relative;
+}
+.box2{
+    width: 100px;
+    height: 30px;
+    background: #e79fe7;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+.fa-angles-left{
+    font-size: 30px;
+    color: #e79fe7;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+.fa-angles-right{
+    font-size: 30px;
+    color: #e79fe7;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.box3{
+    width: 100%;
+    height: 220px;
+    background: indigo;
+    position: relative;
+
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    left: 115px;
+}
+
+.card-box1{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: blueviolet;
+    margin:10px;
+}

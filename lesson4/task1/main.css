@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 800px;
+    height: 600px;
+}
+.a{
+    width:100%;
+    height: 100px;
+    background: lightblue;
+    border-radius: 20px;
+}
+.global-wrapper{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.box-bcdefg{
+    width: 75%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.b, .c, .d, .e, .f, .g{
+    width:33.3%;
+    height: 250px;
+    background: linear-gradient(45deg, violet,blueviolet);
+    border-radius: 20px;
+}
+.box-h{
+    width: 25%;
+    height: 500px;
+    background: yellow;
+    border-radius: 20px;
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+   .global-wrapper{
+       flex-direction: column;
+   }
+    .a{
+        width: 100%;
+        height: 100px;
+    }
+    .box-bcdefg{
+        width: 100%;
+        height: 200px;
+    }
+    .b, .c, .d, .e, .f, .g {
+        width: 33.3%;
+        height: 100px;
+    }
+    .box-h{
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
